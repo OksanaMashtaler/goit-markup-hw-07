@@ -4,10 +4,11 @@
   margin-bottom: 50px;
 }
 
-.project-filter__item:not(:last-child) {
-  margin-right: 8px;
+.project-filter__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
-
 .project-filter__button {
   font-family: $font-family-primary;
   font-weight: 500;

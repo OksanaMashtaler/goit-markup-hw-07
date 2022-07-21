@@ -130,8 +130,7 @@ p {
   fill: #ffffff;
 }
 
-.social-list__link:hover .footer-list__icon,
-.social-list__link:focus .footer-list__icon {
+.social-list__link:hover .footer-list__icon, .social-list__link:focus .footer-list__icon {
   background-color: #2196f3;
   border-radius: 50px;
 }
@@ -163,7 +162,6 @@ p {
   border-radius: 4px;
   background-color: #2f303a;
 }
-
 .footer-form input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -477,8 +475,7 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list__link:hover .social-list__icon,
-.social-list__link:focus .social-list__icon {
+.social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
   background-color: #2196f3;
   border-radius: 50px;
   fill: #ffffff;
@@ -544,8 +541,7 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list__link:hover .social-list__icon,
-.social-list__link:focus .social-list__icon {
+.social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
   background-color: #2196f3;
   border-radius: 50px;
   fill: #ffffff;
@@ -684,6 +680,12 @@ p {
   border-color: #2196f3;
   outline: none;
 }
+.modal-form__field.modal-form__comment::placeholder {
+  font-size: 14px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
 
 .modal-form__field input {
   margin: 0;
@@ -718,8 +720,7 @@ p {
   fill: #2196f3;
 }
 
-.modal-form__input:focus ~ .modal-form__icon,
-.modal-form__input:hover ~ .modal-form__icon {
+.modal-form__input:focus ~ .modal-form__icon, .modal-form__input:hover ~ .modal-form__icon {
   fill: #2196f3;
   border-color: #2196f3;
 }
@@ -730,13 +731,6 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 12px 16px;
-}
-
-.modal-form__field .modal-form__comment::placeholder {
-  font-size: 14px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
 }
 
 textarea {
@@ -760,6 +754,10 @@ textarea {
   appearance: none;
   position: relative;
 }
+.checkbox:checked + .modal-checkbox__icon {
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
 
 .modal-checkbox__icon {
   margin-right: 8px;
@@ -775,11 +773,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.checkbox:checked + .modal-checkbox__icon {
-  background-color: #2196f3;
-  border-color: #2196f3;
 }
 
 .modal-checkbox__link {
