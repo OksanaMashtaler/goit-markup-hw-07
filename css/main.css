@@ -129,7 +129,6 @@ p {
   background: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
-
 .social-list__link:hover .footer-list__icon, .social-list__link:focus .footer-list__icon {
   background-color: #2196f3;
   border-radius: 50px;
@@ -474,7 +473,6 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
   background-color: #2196f3;
   border-radius: 50px;
@@ -540,7 +538,6 @@ p {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .social-list__link:hover .social-list__icon, .social-list__link:focus .social-list__icon {
   background-color: #2196f3;
   border-radius: 50px;
@@ -719,7 +716,6 @@ p {
 .modal-form__icon:hover, .modal-form__icon:focus {
   fill: #2196f3;
 }
-
 .modal-form__input:focus ~ .modal-form__icon, .modal-form__input:hover ~ .modal-form__icon {
   fill: #2196f3;
   border-color: #2196f3;

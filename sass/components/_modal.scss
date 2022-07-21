@@ -13,6 +13,7 @@
   opacity: 0;
   pointer-events: none;
 }
+
 .modal {
   position: absolute;
   top: 50%;
@@ -131,11 +132,9 @@
   &:focus {
     fill: #2196f3;
   }
-}
 
-.modal-form__input {
-  &:focus ~ .modal-form__icon,
-  &:hover ~ .modal-form__icon {
+  .modal-form__input:focus ~ &,
+  .modal-form__input:hover ~ & {
     fill: #2196f3;
     border-color: #2196f3;
   }

@@ -60,11 +60,9 @@
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list__link {
-  &:hover .social-list__icon,
-  &:focus .social-list__icon {
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     background-color: $brand-color;
     border-radius: 50px;
     fill: $accent-color;

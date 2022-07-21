@@ -76,14 +76,15 @@
 .footer-list__icon {
   background: rgba(255, 255, 255, 0.1);
   fill: $accent-color;
-}
-.social-list__link {
-  &:hover .footer-list__icon,
-  &:focus .footer-list__icon {
+
+  .social-list__link:hover &,
+  .social-list__link:focus & {
     background-color: $brand-color;
     border-radius: 50px;
   }
 }
+
+
 .footer-form {
   margin-left: 93px;
 }
